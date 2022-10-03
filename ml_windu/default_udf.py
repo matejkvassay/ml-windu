@@ -15,8 +15,8 @@ def transform(transformer, data):
     return transformer.transform(data)
 
 
-def inverse_transform(df, transformer):
-    return transformer.inverse_transform(df)
+def inverse_transform(transformer, data):
+    return transformer.inverse_transform(data)
 
 
 def fit_model(model, features, targets):

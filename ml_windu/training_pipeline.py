@@ -82,6 +82,9 @@ class TrainingPipeline:
     def cache_last_step(self):
         raise NotImplementedError()
 
+    def clear_cache(self):
+        raise NotImplementedError()
+
     def enable_autocache(self):
         logger.warning('Enabling autocache can result in increased storage usage / memory consumption.')
         self._autocache = True

@@ -1,4 +1,5 @@
 class PipelineStep:
+    # consider removing ! might make on-line change in functions difficult
     def __init__(self, number, name, input_spec, output_spec, docs, func, func_kwargs, cache):
         self.number = number
         self.name = name

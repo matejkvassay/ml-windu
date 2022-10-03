@@ -56,7 +56,7 @@ Steps shared with prediction pipeline
 - 1 command transformation from training to preprocess pipeline
 - support configuration of training pipeline in code or by using YAML files
 - storage and loading of artifacts and prediction pipeline (training as well possibly??)
-- enable modification of featurization function without re-training of stored models (for bug fixes)
+- enable modification of featurization function (or other functions) without re-training of stored models for interactive mode
 - enable inference of data schema during training
 - prediction pipeline enables validation of data schema
 - make everything modular, support different flavors for all trainable artifacts to be stored easily
